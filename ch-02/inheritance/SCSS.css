@@ -1,11 +1,13 @@
+#parent .content .child,
 #parent .sing .child,
 #parent video .child,
 #parent img .child,
-#parent elementOne .child, #parent ElementTwo .child, #parent ElementThree .child, #parent .content .child {
+#parent elementOne .child,
+#parent ElementTwo .child,
+#parent ElementThree .child {
   background: green;
   font-size: 2em;
 }
-
 .content {
   line-height: 2em;
 }
