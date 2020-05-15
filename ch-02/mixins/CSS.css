@@ -1,0 +1,13 @@
+body {
+  color: green;
+  width: 200px;
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
+  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
+  -o-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
+}
+body #main {
+  color: blue;
+  background: green;
+  line-height: 2.6;
+}

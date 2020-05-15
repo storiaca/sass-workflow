@@ -1,0 +1,4 @@
+sass --watch SCSS.scss:CSS.css --style expanded --no-source-map
+
+sass-convert SCSS.scss SASS.sass
+
