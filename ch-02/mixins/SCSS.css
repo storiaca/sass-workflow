@@ -1,13 +1,32 @@
-body {
-  color: green;
-  width: 200px;
-  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
-  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
-  -o-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
+@-webkit-keyframes myAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-body #main {
-  color: blue;
-  background: green;
-  line-height: 2.6;
+@-moz-keyframes myAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes myAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
