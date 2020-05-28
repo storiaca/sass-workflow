@@ -2,10 +2,14 @@ $List1: 200px;
 $List2: 1px 2px 3px black;
 $List3: Helvetica, Arial, sans-serif;
 
+$zip1: 1px 2px 3px 4px;
+$zip2: 4em 3em 2em 1em;
+$zip3: black green blue red;
+
 $NestedList: 1px 2px 3px green, 6px 7px 8px blue, 3px 2px 1px yellow;
 
 html {
-  background: zip(1px 2px 3px 4px, 4em 3em 2em 1em, black green blue red);
+  background: zip($zip1, $zip2, $zip3);
 }
 
 $BasicMap: (
